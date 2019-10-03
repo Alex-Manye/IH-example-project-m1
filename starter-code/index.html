@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/burger-menu-icon.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <a href="index.html"><img src="images/pokemon_logo.png" alt="Logo" class="navbar-brand"></a>
+        <div>
+          <div class="burger-menu-icon" onclick="toggleBurgerMenu(event)">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <ul class="nav-menu hide-menu" id="nav-menu">
+        <li><a href="pokedex.html">Pokédex</a></li>
+        <li><a href="help.html">Ayuda</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <section class="header-section">
+      <div class="header-bg"></div>
+      <div class="header-text">
+        <h1>Pokémon</h1>
+        <p>Todo lo que necesitas saber sobre Pokémon lo encontrarás aquí.<br></p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>¿Cómo atrapar un pokémon?</h2>
+
+      <div class="about-items">
+        <article class="about-item">
+          <img src="images/search.png" alt="Search icon">
+          <h3>Busca!</h3>
+          <p>Hay millones de pokémons escondidos por el mundo. Encuéntralos!</p>
+        </article>
+
+        <article class="about-item">
+          <img src="images/thunder.png" alt="Thunder icon">
+          <h3>Debilita!</h3>
+          <p>Debilita al pokémon para que sea más sencillo capturarlo. ¡Pero cuidado! Algunos son huidizos.</p>
+        </article>
+
+        <article class="about-item">
+          <img src="images/pokeball.png" alt="Pokeball icon">
+          <h3>Lanza!</h3>
+          <p>Apunta bien y lanza tu pokéball. Cuanto más débil esté, ¡mayores probabilidades de que lo consigas!</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="app-info">
+      <div class="app-description">
+        <h2>Pokémon GO</h2>
+        <article>
+          <h4>Encuentra</h4>
+          <p>Encuentra pokémons en el mundo real y házte con todos.</p>
+        </article>
+        <article>
+          <h4>Combate</h4>
+          <p>Libra combates pokémon con otros entrenadores para mejorar tus habilidades y las de tus pokémons.</p>
+        </article>
+        <article>
+          <h4>Desafía</h4>
+          <p>Ponte a prueba en los gimnasios pokémon y conviértete en un maestro pokémon.</p>
+        </article>
+      </div>
+
+      <div class="app-icon">
+        <img src="images/pokeball-icon.png" alt="Pokemon white icon">
+      </div>
+
+      <div class="app-image">
+        <img src="images/pokemon-go.jpg" alt="Pokemon Go app">
+      </div>
+    </section>
+  </main>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
